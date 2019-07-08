@@ -17,6 +17,9 @@ export default (fixture, options = {}) => {
           loader: path.resolve(__dirname, '../index.js')
         }
       }]
+    },
+    optimization: {
+      minimize: false
     }
   });
 
